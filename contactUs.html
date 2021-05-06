@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Us</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
+
+	<style >
+	body{
+		font-family: Tahoma,sans-serif;
+	}
+
+ 
+  
+  
+
+	article{
+		padding-left: 7%;
+		display: inline-table;
+	}
+	/*a{
+		display: inline;
+		padding: 20px;
+	}*/
+	
+	form  { 
+    display: table};      }
+p     { display: table-row  };
+label { display: table-cell };
+input { display: table-cell };
+form label {
+  font-weight:bold
+}
+	
+	
+	/*.form-wrapper .field-list .field .option{
+		display: inline;
+		margin-right: 5px;
+	}
+*/
+
+
+		</style>
+</head>
+<body>
+<header>
+	<h1>Bhukti </h1>
+</header>
+<hr/>
+<nav>
+	<ul >
+	<a href="index.html"> Home </a>
+	<a href="menu.html"> Menu </a>
+	<a href="contactUs.html"> Contact Us </a>
+	</ul>
+
+
+</nav>
+<hr/>
+<center>
+<form action="/action_page.php">
+  <label for="fname">Name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Email:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="pname">Phone:</label>
+  <input type="text" id="pname" name="pname"><br><br>
+  <label for="enquiry">Reason for Inquiry:</label>
+  <select name="enquiry" id="enquiry">
+    <option value="catering">Catering</option>
+    <option value="private">Private Party</option>
+    <option value="feedback">Feedback</option>
+    <option value="other">Other</option>
+  </select>
+  <br><br>
+  
+ 
+  <label >Additional Information :</label>
+  <textarea style="vertical-align: middle" rows="5" cols="50"></textarea><br><br>
+  
+  <label >Have you been to the restaurant?</label>
+  
+  <input type="radio" id="no" name="no" checked="checked">
+  <label for="no">No</label>
+  <input type="radio" id="no" name="yes" >
+  <label for="yes" >Yes</label>
+ 
+  <br><br>
+
+  <label> Best days to contact you:</label>
+  
+  <input type="checkbox" id="t" name="m" >
+  <span style="display: inline-block;width: 50px;">M</span>
+  <!-- <label for="m">M</label><br> -->
+  <input type="checkbox" id="t" name="T" >
+  <span style="display: inline-block;width: 50px;">T</span>
+  <!-- <label for="T"> T</label><br> -->
+  <input type="checkbox" id="t" name="w">
+  <span style="display: inline-block;width: 50px;">W</span>
+  <!-- <label for="w"> W</label> -->
+  <input type="checkbox" id="t" name="th" >
+  <span style="display: inline-block;width: 50px;">Th</span>
+  <!-- <label for="th"> Th</label> -->
+  <input type="checkbox" id="t" name="f">
+  <span style="display: inline-block;width: 50px;">F</span>
+  <br><br>
+  <!-- <label for="f"> F</label> -->
+  <div style="padding-left: 6%">
+  <input type="submit" name="submit" value="Send Request" >
+  </div>
+ 
+  </form>
+
+  </center>
+  <hr/>
+
+<footer>
+	<p> Block-16 Main Street, SaltLake City, Utah-87561</p>
+	<p>Phone-8012509765</p>
+</footer>
+
+</body>
+</html>
