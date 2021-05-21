@@ -7,18 +7,27 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="restaurantStyles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 	<style >
 	body{
-		background-color: #DEB887;
+		background-color:#F5F5DC;
 	}
 
 	
 
-	article{
+	/*article{
 		padding-left: 7%;
 		display: inline-table;
-	}
+	}*/
 	table{
 		margin-left: auto;
 		margin-right: auto;
@@ -30,7 +39,10 @@
   width: 60%;
 }
 tr:nth-child(even){
-	background-color: #D2B48C;
+	background-color:#FDF5E6;
+}
+h3{
+font-family: 'Niconne', cursive;
 }
 	/*a{
 		display: inline;
@@ -43,22 +55,34 @@ tr:nth-child(even){
 </head>
 <body>
 <header>
-	<h1>Bhukti </h1>
+	<header class="jumbotron text-center">
+	<h1 class="col-11  " style="font-size: 80px;
+		color: gray;"> Telangana Ruchulu  </h1>
+	<div class="row d-flex justify-content-center">
+	 <div class="row pb-2">
+	<p>GRAND OPENING at Downtown Saltlake City!! <br/>
+	Right across the Temple Street and next to Harmons<br>
+	     Now Serving Authentic Indian Food <br>
+	     Friday May 21,2021 - 6:00 PM - 10:00PM
+	      </p>
+	      </div>
+	      </div>
 </header>
-<hr/>
+
 <nav>
-	<ul >
-	<a href="index.html"> Home </a>
-	<a href="menu.html"> Menu </a>
-	<a href="contactUs.html"> Contact Us </a>
-	</ul>
+	
+	<a class="btn badge-pill" href="index.html" > <i  class="fa fa-home" style="font-size: 1.78em; color:white; padding-top: 8px;"></i></a>
+	<a class="btn badge-pill" href="menu.html" target="blank"> Menu </a>
+	<a class="btn badge-pill" href="contactUs.html" target="blank"> Contact Us </a>
+
 
 
 </nav>
 <hr/>
 
 <section >
-<article>
+<div class="row">
+<div class="col-sm-3">
 	<h3>Burgers and Fries</h3>
 	<p><em>An American Classic!!</em></p>
 	<p><em>
@@ -66,8 +90,8 @@ tr:nth-child(even){
 Pickel,onion,tomato, and lettuce<br>
 	Served with out famous thick cut french fries<br>
 	$7.95</em></p>
-	</article>
-	<article>
+	</div>
+	<div class="col-sm-3">
 	<h3>Hot Dog and Chips</h3>
 	<p><em>A Summer Classic!!</em></p>
 	<p><em>
@@ -75,8 +99,8 @@ Pickel,onion,tomato, and lettuce<br>
 Relish,mustard and ketchup<br>
 	Served with our house made chips<br>
 	$7.95</em></p>
-	</article>
-	<article>
+	</div>
+	<div class="col-sm-3">
 	<h3>Italian Sausage and Peppers</h3>
 	<p><em>An American Classic!!</em></p>
 	<p><em>
@@ -84,21 +108,32 @@ Relish,mustard and ketchup<br>
 Pickel,onion,tomato, and lettuce<br>
 	Served with out famous thick cut french fies<br>
 	$7.95</em></p>
-	</article>
+	</div>
+	<div class="col-sm-3">
+	<h3>Indian Drinks!!</h3>
+	<p><em>Mango Lassi!!</em></p>
+	<p><em>
+	Pista and Mango Shake<br>
+Kulfi(frozen milk with cardamon,sugar,pista,badam)<br>
+Chilled buttermilk with cilantro and mint<br>
+	Faluda(fruits and vanila icecream mix)<br>
+	$7.95(each)</em></p>
+	</div>
 
-</section>
-<section style= "padding:5px;
-		display: inline ">
+
+</div>
 		
-	<article >	<h3>Tenderloin Sandwich and Chips</h3>
+	<div class="row">
+	<div class="col-sm-3">	
+	<h3>Tenderloin Sandwich and Chips</h3>
 	<p><em>Really Hits the Spot!!</em></p>
 	<p><em>
 	Plain or Sesame Seed Bun<br>
 Pickel,onion,tomato, and lettuce<br>
 	Served with our home made chips<br>
 	$8.95</em></p>
-	</article>
-	<article>
+	</div>
+	<div class="col-sm-3">
 	<h3>House Salad</h3>
 	<p><em>On the Lighter Side!!</em></p>
 	<p><em>
@@ -107,22 +142,34 @@ Iceburg lettuce,tomatoes,peppers<br>
 	Thousand Isaland or Ranch<br>
 	Dressing served with dinner roll
 	$6.50</em></p>
-	</article>
-	<article>
+	</div>
+	<div class="col-sm-3">
 	<h3>Brisket Sandwich and Fries</h3>
 	<p><em>An American Classic!!</em></p>
 	<p><em>
 	Smoked Brisket on thick-cut<br>
 Toast of the day<br>
 Cole Slaw<br>
-Toast of the day<br>
 	Served with our famous thick cut french fies<br>
 	$7.95</em></p>
+	</div>
+	<div class="col-sm-3">
+	<h3>Indian Specials</h3>
+	<p><em>Chicken!!</em></p>
+	<p><em>
+	Chicken Biryani(spicy/medium spicy)<br>
+Butter chicken curry<br>
+Chicken fried rice<br>
+	Served with onions and lemon<br>
+	$12.95</em></p>
+	</div>
 
-	</article>
+
+	</div>
 
 </section>
 <hr/>
+
 <table>
 <tr>
 <td colspan="2" ><span style="font-weight: bold;font-size: 20px;" >Beverages</span> </td>
@@ -147,13 +194,12 @@ Toast of the day<br>
 	
 
 
-
-
 <footer>
 	<p> Block-16 Main Street, SaltLake City, Utah-87561</p>
 	<p>Phone-8012509765</p>
 </footer>
 
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
 
 </body>
 </html>

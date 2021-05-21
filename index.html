@@ -6,71 +6,125 @@
 
 	<title>Home Page</title>
 	<link rel="stylesheet" type="text/css" href="restaurantStyles.css">
+	<!-- google fonts here -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+<!-- fonts end here -->
+<!-- Bootstrap here -->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    
 	
-	<style>
-
-	
-
-	.content-background{
-		background-color: #FFFACD;
-
-	}
 	
 	
-	/*img{
-		
-		width: 80%;
-		padding-top:  2%;
-		padding-left: 10%;
-		padding-right: 5%;
-	}	*/
-	article{
-		padding-top:  2%;
-		padding-left: 10%;
-		padding-right: 5%;
-
-	}
 	
+	
+	  
 
-
-
-	</style>
+      
+  
 </head>
 <body>
-<header>
-	<h1>Bhukti </h1>
+
+<header class="jumbotron text-center">
+	<h1 class="col-11  " style="font-size: 80px;
+		color: gray;"> Telangana Ruchulu  </h1>
+	<div class="row d-flex justify-content-center">
+	 <div class="row pb-2">
+	<p>GRAND OPENING at Downtown Saltlake City!! <br/>
+	Right across the Temple Street and next to Harmons<br>
+	     Now Serving Authentic Indian Food <br>
+	     Friday May 21,2021 - 6:00 PM - 10:00PM
+	      </p>
+	      </div>
+	      </div>
 </header>
-<hr/>
+
 <nav>
-	<ul >
-	<a  href="index.html" target="blank"> Home </a>
-	<a  href="menu.html" target="blank"> Menu </a>
-	<a  href="contactUs.html" target="blank"> Contact Us </a>
-	</ul>
+	
+	<a class="btn badge-pill" href="index.html" > <i  class="fa fa-home" style="font-size: 1.78em; color:white; padding-top: 8px;"></i></a>
+	<a class="btn badge-pill" href="menu.html" target="blank"> Menu </a>
+	<a class="btn badge-pill" href="contactUs.html" target="blank"> Contact Us </a>
+
 
 
 </nav>
 
 <div class="content-background">
-<hr/>
-<img src="images/restaurantImage.jpg" alt="RestaurantPicture" style="width: 80%;
+<!-- <hr/> -->
+<!-- <img src="images/restaurantImage.jpg" alt="RestaurantPicture" style="width: 80%;
 		padding-top:  2%;
 		padding-left: 10%;
-		padding-right: 5%;" />
+		padding-right: 5%;" /> -->
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/street-food-in-India-min.jpg" alt="StreetFood" width="1100" height="200">
+      <div class="carousel-caption">
+        <h3>Telangana Ruchulu Has A New Location Now!!</h3>
+        <p style="color: white;font-family: 'Charm', cursive;">main street downtown Saltlake City,UT<br/>
+        come and enjoy your favourite food at a new place</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/img2.jpg" alt="special menu" width="1100" height="200">
+      <div class="carousel-caption">
+        <h3>Rolling out our seasonal menu,with special options and best prices</h3>
+        
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/drinks.jpg" alt="Tasty Drinks" width="1100" height="200">
+      <div class="carousel-caption">
+        <h3>Introducing cardmon and ginger tea </h3>
+        <h3>Along with the special pista and mango drink to beat the summer heat.</h3>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
 <article >
-	<p>Restaurant Description</p>
-	<p>A quality and relaxing rural country pub and restaurant, run by award winning owners, in the beautiful Utah village  just a short drive from the alpine and snowbird . The building and decor are charming and rustic, with elegant modern touches. Relax by the cozy log burner perfect for winter evenings or enjoy outdoor seating overlooking beautiful mountains or in a pretty courtyard filled with flowers in the summer months. A daily menu, all freshly prepared in the pub kitchen, includes fresh meat, pies, vegetables and chef's daily specials with main course prices ranging from $6.50 - $19.50. As all dishes are prepared in the pub kitchen, they are able to cater for most dietary needs, with most sauces, soups and gravy all created gluten free. The Bhukti also offers gluten free bread and gluten free Utah's puddings on Sundays. Step in and enjoy our food with family and friends.</p>
+	<h4>Restaurant Description</h4>
+	<div class="container">
+	<p>A quality and relaxing rural country pub and Indian restaurant, run by award winning owners, in the beautiful Provo  just a short drive from the Alpine and Snowbird ski resorts. The building and decor are charming and rustic, with elegant modern touches. Relax by the cozy log burner perfect for winter evenings or enjoy outdoor seating overlooking beautiful mountains or in a pretty courtyard filled with flowers in the summer months. A daily menu,authentic Indian food all freshly prepared in the  kitchen, includes non-veg biryanis prepared with fresh meat, indian sweets and pies, butter naans and chef's daily specials chicken paratas with main course prices ranging from $6.50 - $19.50. As all dishes are prepared in the kitchen, they are able to cater for most dietary needs, with most sauces, soups and gravy all created gluten free. Telangana Ruchulu also offers gluten free bread and gluten free Utah's puddings on Sundays. Step in and enjoy our food with family and friends.</p>
+	</div>
 	
 </article>
-<hr/>
+
 </div>
 
 <footer>
 	<p> Block-16 Main Street,SaltLake City,Utah-87561</p>
-	<p>Phone-8012509765</p>
+	<p>Phone-8010000011</p>
 </footer>
+
+<!-- end of container div -->
+<!-- </div> --> 
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+
 
 
 </body>
