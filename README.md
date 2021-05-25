@@ -1,2 +1,2 @@
-# guildProject1
-First project for software guild pre course
+Restaurant WebSite
+First project for software guild pre-course
