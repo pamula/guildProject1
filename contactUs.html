@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Us</title>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="restaurantStyles.css">
+<!-- Bootstrap from here -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<style >
+	body{
+		font-family: Tahoma,sans-serif;
+	}
+
+ 
+  
+  
+
+	article{
+		padding-left: 7%;
+		display: inline-table;
+	}
+	/*a{
+		display: inline;
+		padding: 20px;
+	}*/
+	
+	form  { 
+    display: table};      }
+p     { display: table-row  };
+label { display: table-cell };
+input { display: table-cell };
+form label {
+  font-weight:bold
+}
+	
+	
+	/*.form-wrapper .field-list .field .option{
+		display: inline;
+		margin-right: 5px;
+	}
+*/
+
+
+		</style>
+</head>
+<body>
+<header class="jumbotron text-center">
+  <h1 class="col-11  " style="font-size: 80px;
+    color: gray;"> Telangana Ruchulu  </h1>
+  <div class="row d-flex justify-content-center">
+   <div class="row pb-2">
+  <p>GRAND OPENING at Downtown Saltlake City!! <br/>
+  Right across the Temple Street and next to Harmons<br>
+       Now Serving Authentic Indian Food <br>
+       Friday May 21,2021 - 6:00 PM - 10:00PM
+        </p>
+        </div>
+        </div>
+</header>
+
+<nav>
+  
+  <a class="btn badge-pill" href="index.html" > <i  class="fa fa-home" style="font-size: 1.78em; color:white; padding-top: 8px;"></i></a>
+  <a class="btn badge-pill" href="menu.html" target="blank"> Menu </a>
+  <a class="btn badge-pill" href="contactUs.html" target="blank"> Contact Us </a>
+
+
+
+</nav>
+<hr/>
+<div class="form-hide">
+<center>
+<form  name="numberFun"  class="formDetails" onsubmit="return validateItems(this);">
+<div class="form-group">
+  <label for="fname">Name:</label>
+  <input type="text" id="fname" name="fname" placeholder="Enter name" ><br><br>
+  <label for="lname">Email:</label>
+  <input type="email" id="lname" name="lname" placeholder="Enter email"  ><br><br>
+  <label for="pname">Phone:</label>
+  <input type="text" id="pname" name="pname" placeholder="Enter number"><br><br>
+  </div>
+  <label for="enquiry">Reason for Inquiry:</label>
+  <select name="enquiry" id="enquiry">
+    <option value="catering">Catering</option>
+    <option value="private">Private Party</option>
+    <option value="feedback">Feedback</option>
+    <option value="other">Other</option>
+  </select>
+  <br><br>
+  
+ 
+  <label >Additional Information :</label>
+  <textarea style="vertical-align: middle" rows="5" cols="50"></textarea><br><br>
+  
+  <label >Have you been to the restaurant?</label>
+  
+  <input type="radio" class="no" name="no" checked="checked">
+  <label for="no">No</label>
+  <input type="radio" class="no" name="no" >
+  <label for="yes" >Yes</label>
+ 
+  <br><br>
+
+  <label> Best days to contact you:</label>
+  
+  <input type="checkbox" class="t" name="m" >
+  <span >M</span>
+  <!-- <label for="m">M</label><br> -->
+  <input type="checkbox" class="t" name="T" >
+  <span >T</span>
+  <!-- <label for="T"> T</label><br> -->
+  <input type="checkbox" class="t" name="w">
+  <span >W</span>
+  <!-- <label for="w"> W</label> -->
+  <input type="checkbox" class="t" name="th" >
+  <span > Th</span>
+  <!-- <label for="th"> Th</label> -->
+  <input type="checkbox" class="t" name="f">
+  <span >F</span>
+  <br><br>
+  <!-- <label for="f"> F</label> -->
+  <div style="padding-left: 6%">
+  <input id="submitButton" type="submit" name="submit" value="Send Request"  >
+  </div>
+ 
+  </form>
+
+  </center>
+  </div>
+<p class="submitForm"></p>
+ 
+  <hr/>
+
+<footer>
+	<p> Block-16 Main Street, SaltLake City, Utah-87561</p>
+	<p>Phone-8012509765</p>
+</footer>
+
+<script type="text/javascript" src = "restaurant.js"></script>
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+</body>
+</html>
